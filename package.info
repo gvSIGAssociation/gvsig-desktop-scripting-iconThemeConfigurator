@@ -1,0 +1,22 @@
+#
+#Thu Jun 15 13:41:32 CEST 2017
+owner=
+code=iconThemeConfigurator
+java-version=j1_7
+official=false
+type=Script
+version=1.0.0-5
+state=testing
+operating-system=all
+dependencies=
+sources-url=
+web-url=
+architecture=all
+model-version=1.0.1
+categories=
+description=
+owner-url=
+buildNumber=5
+download-url=http\://devel.gvsig.org/download/projects/gvsig-scripts/pool/iconThemeConfigurator/gvSIG-desktop-2.4.0-iconThemeConfigurator-1.0.0-5-testing-all-all-j1_7.gvspkg
+gvSIG-version=2.4.0
+name=Scripts\: Icon theme configurator
