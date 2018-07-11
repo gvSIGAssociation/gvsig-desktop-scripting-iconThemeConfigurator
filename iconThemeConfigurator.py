@@ -1,6 +1,7 @@
 # encoding: utf-8
 
 import gvsig
+from gvsig import getResource
 from gvsig.commonsdialog import msgbox
 from gvsig.libs.formpanel import FormPanel
 
@@ -18,7 +19,7 @@ from java.awt import BorderLayout
 class IconThemeConfigurator(FormPanel):
   def __init__(self):
     FormPanel.__init__(self)
-    self.load((__file__, "iconThemeConfigurator.xml"))
+    self.load(getResource(__file__, "iconThemeConfigurator.xml"))
     self.setPreferredSize(800,400)
     self.load_icon_themes()
     self.initPackager()
